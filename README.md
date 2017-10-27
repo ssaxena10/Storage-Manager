@@ -1,4 +1,4 @@
-# Buffer-Manager
+# Storage-Manager
 Advance Database Organization - CS 525
 
 Team Members :
