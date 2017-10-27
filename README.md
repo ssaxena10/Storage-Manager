@@ -60,35 +60,35 @@ testCreateOpenClose() and testSinglePageContent were provided by the professor, 
 testReadBlock() is a helper function.
 
 testMultiPageContent tries the following:
-    CreatePageFile()
-    OpenCreateFile()
-    readFirstBlock()
-    runs writeBlock() 8 times, and fills each page 4096 characters of the block #
-    jumps to block #0
-    runs readNextBlock() 8 times
-    readBlock(5)
-    readNextBlock(), block #6
-    readPreviousBlock(), block #5
-    jumpts to block #4
-    readCurrentBlock(), block #4
-    readLastBlock(), block #6
+    - CreatePageFile()
+    - OpenCreateFile()
+    - readFirstBlock()
+    - runs writeBlock() 8 times, and fills each page 4096 characters of the block #
+    - jumps to block #0
+    - runs readNextBlock() 8 times
+    - readBlock(5)
+    - readNextBlock(), block #6
+    - readPreviousBlock(), block #5
+    - jumpts to block #4
+    - readCurrentBlock(), block #4
+    - readLastBlock(), block #6
     
 
 testSinglPageContent2 tries the following:
-    CreatePageFile()
-    OpenCreateFile()
-    readFirstBlock()
-    writeBlock() to block #0
-    readFirstBlock(), what was just written
-    appendEmptyBlock()
-    jumps to block #1 (the newly appended block)
-    readCurrentBlock()
-    writeCurrentBlock()
-    readCurrentBlock()
-    ensureCapacity(3), from 2 blocks to 3
-    readNextBlock(), the newly appended block
-    readPreviousBlock()
-    readNextBlock()
-    readLastBlock()
-    closePageFile()
-    destroyPageFile()
+    - CreatePageFile()
+    - OpenCreateFile()
+    - readFirstBlock()
+    - writeBlock() to block #0
+    - readFirstBlock(), what was just written
+    - appendEmptyBlock()
+    - jumps to block #1 (the newly appended block)
+    - readCurrentBlock()
+    - writeCurrentBlock()
+    - readCurrentBlock()
+    - ensureCapacity(3), from 2 blocks to 3
+    - readNextBlock(), the newly appended block
+    - readPreviousBlock()
+    - readNextBlock()
+    - readLastBlock()
+    - closePageFile()
+    - destroyPageFile()
