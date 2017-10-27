@@ -1,6 +1,13 @@
 # Buffer-Manager
 Advance Database Organization - CS 525
 
+Team Members :
+
+Sharul Saxena
+Neilabh Okhandiar
+Jayavarshini Ilarajan
+Obafemi Shyllon
+
 # USAGE
 
 run `make` to produce the `test_assign1` binary
